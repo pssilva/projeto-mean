@@ -12,14 +12,28 @@ Para construir a imagem usei as orientações discutidas em [Oskar Hane: 2015].
 
 ### Adquirir Proficiências em Habilidades
 
-1. Experiência em sistemas de containerização (e.g. [Docker](https://hub.docker.com/r/pss1suporte/paas-docker/));
-2. Experiência em sistemas Linux e shell scripting;
-3. Experiência em sistemas Amazon Web Services - AWS;
-3. Gerenciar containers com [Kubernetes](https://kubernetes.io/) [Alan Mark Berg: 2015 - 5], vide figura 5-1;
-4. Experiência em projetos utilizando micro serviços (Microservices) e computação distribuída;
-5. Experiência em sistemas de banco de dados NoSQL (Cassandra, MongoDB, etc.);
 
-![MEAN Stacks](https://github.com/pssilva/projeto-mean/blob/master/doc-repo/mean.jpeg)
+1. Experiência em sistemas de banco de dados NoSQL (Cassandra, [MongoDB](https://www.mongodb.com/), etc.);
+	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/mongoDB.jpeg" alt="Experiência em sistemas de banco de dados NoSQL" height="50" width="195"/></p>
+2. Experiência em sistemas usando tecnologia não bloqueante [Node.js](https://nodejs.org/en/);
+	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/mongoDB.png" alt="Node.js" height="50" width="195"></p>
+3. Experiência em sistemas usando [Express](http://expressjs.com/pt-br/);
+	<p><img src="https://angularjs.org/img/AngularJS-large.png" alt="Experiência em sistemas usando AngularJs" height="50" width="195"></p>
+4. Experiência em sistemas usando [AngularJS](https://angularjs.org/);
+	<p><img src="https://angularjs.org/img/AngularJS-large.png" alt="Experiência em sistemas usando AngularJs" height="50" width="195"></p>
+5. Experiência em sistemas de containerização (e.g. [Docker](https://hub.docker.com/r/pss1suporte/paas-docker/));
+6. Experiência em sistemas Linux e shell scripting;
+7. Experiência em sistemas Amazon Web Services - AWS;
+8. Experiência em projetos utilizando micro serviços (Microservices) e computação distribuída;
+
+### Como usar:
+Considerando que temos uma instância do Amazon Machine Image - AMI iniciada: [aqui](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/AccessingInstances.html) AWS EC2. Você pode acessar sua instância e executar o script: [aqui](https://github.com/pssilva/paas-docker/blob/master/paas/getting-started.sh). Ou executar manualmente os comandos abaixo:
+
+- 1. Clonar o projeto: `git clone https://github.com/pssilva/projeto-mean.git`;
+- 2. Acessar a pasta: `cd projeto-mean`;
+- 3. Instalar as dependencias: `mpn install`
+
+
 
 ### Referência
 - Amos Q. Haviv: 2014, Packt Publishing, [MEAN Web Development](http://it-ebooks.info/book/4849/): <br />
