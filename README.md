@@ -18,7 +18,7 @@ Para construir a imagem usei as orientações discutidas em [Oskar Hane: 2015].
 2. Experiência em sistemas usando tecnologia não bloqueante [Node.js](https://nodejs.org/en/);
 	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/nodeJS.png" alt="Node.js" height="50" width="195"></p>
 3. Experiência em sistemas usando [Express](http://expressjs.com/pt-br/);
-	<p><img src="https://angularjs.org/img/AngularJS-large.png" alt="Experiência em sistemas usando AngularJs" height="50" width="195"></p>
+	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/expressjs.png" alt="Experiência em sistemas usando ExpressJs" height="50" width="195"></p>
 4. Experiência em sistemas usando [AngularJS](https://angularjs.org/);
 	<p><img src="https://angularjs.org/img/AngularJS-large.png" alt="Experiência em sistemas usando AngularJs" height="50" width="195"></p>
 5. Experiência em sistemas de containerização (e.g. [Docker](https://hub.docker.com/r/pss1suporte/paas-docker/));
