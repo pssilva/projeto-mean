@@ -24,13 +24,13 @@ Para construir a imagem usei as orientações discutidas em [Oskar Hane: 2015].
 5. Experiência em sistemas de containerização (e.g. [Docker](https://hub.docker.com/r/pss1suporte/paas-docker/));
 	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/docker.png" alt="Experiência em sistemas de containerização Docker" height="50" width="195"></p>
 6. Experiência em sistemas Linux e shell scripting;
-	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/shell-linux.png" alt="Experiência em sistemas Linux e shell scripting" height="50" width="195"></p>
+	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/shell-linux.jpeg" alt="Experiência em sistemas Linux e shell scripting" height="50" width="195"></p>
 7. Experiência em sistemas Amazon Web Services - AWS;
 	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/aws.png" alt="Experiência em sistemas Amazon Web Services - AWS" height="50" width="195"></p>
 8. Experiência em projetos utilizando micro serviços (Microservices) e computação distribuída;
 
 ### Como usar:
-Considerando que temos uma instância do Amazon Machine Image - AMI iniciada: [aqui](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/AccessingInstances.html) AWS EC2. Você pode acessar sua instância e executar o script: [aqui](https://github.com/pssilva/paas-docker/blob/master/paas/getting-started.sh). Ou executar manualmente os comandos abaixo:
+Considerando que temos uma instância do Amazon Machine Image - AMI iniciada: [aqui](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/AccessingInstances.html) AWS EC2. Execute os comandos abaixo:
 
 - 1. Clonar o projeto: `git clone https://github.com/pssilva/projeto-mean.git`;
 - 2. Acessar a pasta: `cd projeto-mean`;
