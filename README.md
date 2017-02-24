@@ -19,7 +19,7 @@ Para construir a imagem usei as orientações discutidas em [Oskar Hane: 2015].
 4. Experiência em projetos utilizando micro serviços (Microservices) e computação distribuída;
 5. Experiência em sistemas de banco de dados NoSQL (Cassandra, MongoDB, etc.);
 
-![Kubernetes Architecture](https://github.com/pssilva/paas-docker/blob/master/doc-repo/mean.jpeg)
+![MEAN Stacks](https://github.com/pssilva/projeto-mean/blob/master/doc-repo/mean.jpeg)
 
 ### Referência
 - Amos Q. Haviv: 2014, Packt Publishing, [MEAN Web Development](http://it-ebooks.info/book/4849/): <br />
