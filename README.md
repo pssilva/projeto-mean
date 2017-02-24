@@ -22,8 +22,11 @@ Para construir a imagem usei as orientações discutidas em [Oskar Hane: 2015].
 4. Experiência em sistemas usando [AngularJS](https://angularjs.org/);
 	<p><img src="https://angularjs.org/img/AngularJS-large.png" alt="Experiência em sistemas usando AngularJs" height="50" width="195"></p>
 5. Experiência em sistemas de containerização (e.g. [Docker](https://hub.docker.com/r/pss1suporte/paas-docker/));
+	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/docker.png" alt="Experiência em sistemas de containerização Docker" height="50" width="195"></p>
 6. Experiência em sistemas Linux e shell scripting;
+	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/docker.png" alt="Experiência em sistemas Linux e shell scripting" height="50" width="195"></p>
 7. Experiência em sistemas Amazon Web Services - AWS;
+	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/aws.png" alt="Experiência em sistemas Amazon Web Services - AWS" height="50" width="195"></p>
 8. Experiência em projetos utilizando micro serviços (Microservices) e computação distribuída;
 
 ### Como usar:
