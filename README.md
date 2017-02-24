@@ -14,9 +14,9 @@ Para construir a imagem usei as orientações discutidas em [Oskar Hane: 2015].
 
 
 1. Experiência em sistemas de banco de dados NoSQL (Cassandra, [MongoDB](https://www.mongodb.com/), etc.);
-	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/mongoDB.jpeg" alt="Experiência em sistemas de banco de dados NoSQL" height="50" width="195"/></p>
+	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/mongoDB.png" alt="Experiência em sistemas de banco de dados NoSQL" height="50" width="195"/></p>
 2. Experiência em sistemas usando tecnologia não bloqueante [Node.js](https://nodejs.org/en/);
-	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/mongoDB.png" alt="Node.js" height="50" width="195"></p>
+	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/nodeJS.png" alt="Node.js" height="50" width="195"></p>
 3. Experiência em sistemas usando [Express](http://expressjs.com/pt-br/);
 	<p><img src="https://angularjs.org/img/AngularJS-large.png" alt="Experiência em sistemas usando AngularJs" height="50" width="195"></p>
 4. Experiência em sistemas usando [AngularJS](https://angularjs.org/);
