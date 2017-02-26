@@ -44,7 +44,7 @@ Aqui assumimos a estrutura das pastas Vertical conforme figura abaixo:
 
 <p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/vertical-structure-folder.png"></p>
 
-Onde entendemos que a pasta feature1 representa a separação literal das funcionalidades. Exemplo, pretendo organizar authentication e authorization com o OAuth2.0 separadamente como um plugin usando a estrutura da pasta feature1.
+Onde entendemos que a pasta feature representa a separação literal das funcionalidades. Exemplo, pretendo organizar authentication e authorization com o [OAuth2.0](https://oauth.net/2/) separadamente como um plugin usando a estrutura da pasta feature.
 
 
 ### Referência
