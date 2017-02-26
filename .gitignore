@@ -10,6 +10,7 @@ Criar ou editar o .gitignore com o seguinte conteudo:
 *.jar
 *.war
 *.ear
+.DS_Store
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -27,7 +28,19 @@ build/*
 ###############
 .gradle/*
 gradle/*
+!.gradle/generating_template/
 gradlew
 gradlew.bat
+
+###############
+## NodeJs  ####
+###############
+node_modules/*
+
+
+
+###############
+## AngularJs ##
+###############
 
 
