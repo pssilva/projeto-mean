@@ -1,7 +1,9 @@
 /**
  * New node file
  */
-var express = require('express'),
+var config = require('./config'),
+	express = require('express'),
+	session = require('express-session'),
 	morgan = require('morgan'),
 	compress = require('compression'),
 	bodyParser = require('body-parser'),
@@ -11,7 +13,7 @@ module.exports = function() {
 	var app = express();
 	if (process.env.NODE_ENV === 'development') {
 		app.use(morgan('dev'));
-	 } else if (process.env.NODE_ENV === 'production') {
+	} else if (process.env.NODE_ENV === 'production') {
 		 app.use(compress());
 	}
 	app.use(bodyParser.urlencoded({
@@ -19,6 +21,19 @@ module.exports = function() {
 	}));
 	app.use(bodyParser.json());
 	app.use(methodOverride());
-	require('../routers/index.server.routers')(app); 
+	
+	app.use(session({
+		saveUninitialized: true,
+		resave: true,
+		secret: config.sessionSecret
+	}));
+	
+	app.set('views', './app/core/server/views');
+    app.set('view engine', 'ejs');
+	
+    require('../routers/index.server.routers')(app); 
+    app.use('/public',express.static('./app/core/client'));
+    app.use('/feature1',express.static('./app/feature1/client'));
+
 	return app;
 };

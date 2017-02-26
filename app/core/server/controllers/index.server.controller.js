@@ -3,6 +3,14 @@
   * 
   */
 exports.render = function(req, res) {
+	if (req.session.lastVisit) {
+		console.log(req.session.lastVisit);
+	}
 	
-	res.send('Hello ' + req.query['name']);
+	req.session.lastVisit = new Date();
+	
+	res.status(res.statusCode)
+	   .render('index',{
+		   title: 'Hello World'
+	   });
 };
