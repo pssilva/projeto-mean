@@ -34,11 +34,21 @@ Considerando que temos uma instância do Amazon Machine Image - AMI iniciada: [a
 
 - 1. Clonar o projeto: `git clone https://github.com/pssilva/projeto-mean.git`;
 - 2. Acessar a pasta: `cd projeto-mean`;
-- 3. Instalar as dependencias: `mpn install`
+- 3. Instalar as dependencias: `mpn install`;
+- 4. Start Server: `node server`;
+- 5. Acessar o sistema: `localhost:3000?name=SeuPrimeiroNome`;
 
+
+### Estrutura das Pastas do Projeto
+Aqui assumimos a estrutura das pastas Vertical conforme figura abaixo:
+
+<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/vertical-structure-folder.png"></p>
+
+Onde entendemos que a pasta feature1 representa a separação literal das funcionalidades. Exemplo, pretendo organizar authentication e authorization com o OAuth2.0 separadamente como um plugin usando a estrutura da pasta feature1.
 
 
 ### Referência
+- Valeri Karpov, Diego Netto: 2015, John Wiley & Sons, Inc., [Professional AngularJS](http://www.allitebooks.com/professional-angularjs/)
 - Amos Q. Haviv: 2014, Packt Publishing, [MEAN Web Development](http://it-ebooks.info/book/4849/): <br />
 	Master real-time web application development using a mean combination of MongoDB, Express, AngularJS, and Node.js.
 - Sébastien Goasguen: 2016, O’Reilly Media, Inc., [Docker Cookbook](http://www.allitebooks.com/docker-cookbook/): <br />
