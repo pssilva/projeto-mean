@@ -11,6 +11,7 @@ exports.render = function(req, res) {
 	
 	res.status(res.statusCode)
 	   .render('index',{
-		   title: 'Hello World'
+		   title: 'Hello World',
+		   userFullName: req.user ? req.user.fullName : ''
 	   });
 };

@@ -4,6 +4,13 @@
        <title>XX :: <%= title %> :: </title>
      </head>
      <body>
+      	<% if ( userFullName ) { %>
+           <h2>Hello <%=userFullName%> </h2>
+           <a href="/signout">Sign out</a>
+         <% } else { %>
+           <a href="/signup">Signup</a>
+           <a href="/signin">Signin</a>
+		<% } %>
      	<img src="/public/img/nodeJS.png" alt="Logo"> <br />
        <h1><%= title %></h1>
      </body>
