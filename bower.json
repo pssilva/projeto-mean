@@ -1,0 +1,29 @@
+{
+  "name": "projeto-mean",
+  "description": "Projeto conceito para implementar uma aplicação Web usando o Framework MEAN que utiliza as tecnologias: MongoDB, Express, AngularJS e NodeJS.",
+  "main": "index.js",
+  "authors": [
+    "Paulo Sérgio da Silva"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "MEAN",
+    "MongoDB",
+    "Express",
+    "AngularJS",
+    "Node.js"
+  ],
+  "homepage": "https://github.com/pssilva/projeto-mean",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/core/client/lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+	  "angular": "~1.2",
+      "angular-route": "~1.2"
+  }
+}

@@ -43,5 +43,5 @@ node_modules/*
 ###############
 ## AngularJs ##
 ###############
-
+app/core/client/lib/*
 
