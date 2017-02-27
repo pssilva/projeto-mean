@@ -8,7 +8,9 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 process.env.SESSION_SECRET = process.env.SESSION_SECRET || 'developmentSessionSecret';
 
 
-var express = require('./app/core/server/config/express');
+var mongoose = require('./app/core/server/config/mongoose'),
+	express = require('./app/core/server/config/express');
+var db = mongoose();
 var app = express();
 
 

@@ -3,6 +3,6 @@
  * $export SESSION_SECRET=??????
  */
 module.exports = {
-		// Development configuration options
+		db: 'mongodb://localhost/project-mean',
 		sessionSecret: process.env.SESSION_SECRET //'developmentSessionSecret'
 };

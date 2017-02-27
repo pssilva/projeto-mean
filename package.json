@@ -30,7 +30,9 @@
     "body-parser": "~1.8.0",
     "method-override": "~2.2.0",
     "express-session": "~1.7.6",
-    "ejs": "~1.0.0" 
+    "ejs": "~1.0.0",
+    "mongoose": "~4.8.5",
+    "bluebird": "^2.9.34"
   },
   "params": {"path_strutucture": "v"}
 }
