@@ -5,6 +5,7 @@
 module.exports = {
 		db: 'mongodb://localhost/project-mean',
 		sessionSecret: process.env.SESSION_SECRET, //'developmentSessionSecret'
+	    viewEngine: 'ejs',
 		facebook: {
 		       clientID: process.env.FACEBOOK_APP_ID, //'Application Id',
 		       clientSecret: process.env.FACEBOOK_APP_SECRET, //'Application Secret',
