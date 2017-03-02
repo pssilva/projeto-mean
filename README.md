@@ -35,8 +35,12 @@ Considerando que temos uma instância do Amazon Machine Image - AMI iniciada: [a
 - 1. Clonar o projeto: `git clone https://github.com/pssilva/projeto-mean.git`;
 - 2. Acessar a pasta: `cd projeto-mean`;
 - 3. Instalar as dependencias: `mpn install`;
+- 3. Instalar as dependencias: `bower install`;
 - 4. Start Server: `node server`;
 - 5. Acessar o sistema: `localhost:3000?name=SeuPrimeiroNome`;
+
+NOTA: MEAN CRUD - para criar um CRUD automaticamente use o comando: <br />
+`gradle -q createMeanCRUD -PmodelName=articles -PfeatureName=example`
 
 ### Estrutura das Pastas do Projeto
 Aqui assumimos a estrutura das pastas Vertical. Você pode gerar automaricamente com o comando: <br /> `$gradle -q createStrutucreFolders --stacktrace -PtypeStructure='v' -PfeatureName='featureName1'` <br /> que vai gerar uma estrutura conforme figura abaixo:

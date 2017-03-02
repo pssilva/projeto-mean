@@ -1,8 +1,13 @@
 var mainApplicationModuleName = 'mean';
 var mainApplicationModule = angular.module(mainApplicationModuleName, [
+      'ngResource',
       'ngRoute',
       'users',
-      'example'
+      'articles',
+      //#autoIncludeModulo
+
+
+
 	]);
 
 	mainApplicationModule.config([
@@ -12,7 +17,7 @@ var mainApplicationModule = angular.module(mainApplicationModuleName, [
         }
     ]);
 	
-	 if (window.location.hash === '#_=_') window.location.hash = '#!';
+	if (window.location.hash === '#_=_') window.location.hash = '#!';
 	angular.element(document).ready(function() {
 		angular.bootstrap(document, [mainApplicationModuleName]);
 	});

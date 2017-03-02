@@ -17,7 +17,6 @@ process.env.FACEBOOK_SESSION_SECRET = process.env.FACEBOOK_APP_SECRET || '###$$$
 process.env.TWITTER_APP_ID = process.env.FACEBOOK_APP_ID || '??????';
 process.env.TWITTER_APP_SECRET = process.env.FACEBOOK_APP_SECRET || '###$$$$';
 
-
 var mongoose = require('./app/core/server/config/mongoose'),
 	express = require('./app/core/server/config/express');
 	passport = require('./app/core/server/config/passport');
@@ -25,7 +24,6 @@ var mongoose = require('./app/core/server/config/mongoose'),
 var db = mongoose();
 var app = express();
 var passport = passport();
-
 
 console.log("FACEBOOK_APP_SECRET = " + process.env.FACEBOOK_APP_SECRET);
 console.log("FACEBOOK_SESSION_SECRET = " + process.env.FACEBOOK_SESSION_SECRET);
@@ -39,5 +37,3 @@ console.log("GOOGLE_APP_SECRET = " + process.env.GOOGLE_APP_SECRET);
    app.listen(3000);
    console.log('Server running at http://localhost:3000/');
    module.exports = app;
-
-   

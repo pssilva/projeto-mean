@@ -42,11 +42,14 @@ module.exports = function() {
 	
     require('../routers/index.server.routers')(app);
     require('../routers/users.server.routes')(app);
+	require('../routers/articles.server.routes')(app);
+	/**#autoInsertRequire#*/
+
 
     app.use('/public',express.static('./app/core/client'));
     app.use('/lib',express.static('./app/core/client/lib'));
-    app.use('/feature1',express.static('./app/feature1/client'));
     app.use('/example',express.static('./app/example/client'));
+	/**#autoInsertStaticPath#*/
 
 	return app;
 };

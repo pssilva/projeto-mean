@@ -9,6 +9,7 @@
 
 apply plugin: 'eclipse'
 apply from: 'structureFolder.gradle'
+apply from: 'meanCRUD.gradle'
 
 
 
