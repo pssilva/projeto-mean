@@ -35,9 +35,9 @@ Considerando que temos uma instância do Amazon Machine Image - AMI iniciada: [a
 - 1. Clonar o projeto: `git clone https://github.com/pssilva/projeto-mean.git`;
 - 2. Acessar a pasta: `cd projeto-mean`;
 - 3. Instalar as dependencias: `mpn install`;
-- 3. Instalar as dependencias: `bower install`;
-- 4. Start Server: `node server`;
-- 5. Acessar o sistema: `localhost:3000?name=SeuPrimeiroNome`;
+- 4. Instalar as dependencias: `bower install`;
+- 5. Start Server: `node server`;
+- 6. Acessar o sistema: `localhost:3000?name=SeuPrimeiroNome`;
 
 NOTA: MEAN CRUD - para criar um CRUD automaticamente use o comando: <br />
 `gradle -q createMeanCRUD -PmodelName=articles -PfeatureName=example`
