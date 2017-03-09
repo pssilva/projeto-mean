@@ -43,7 +43,15 @@ NOTA: MEAN CRUD - para criar um CRUD automaticamente use o comando: <br />
 `gradle -q createMeanCRUD -PmodelName=articles -PfeatureName=example`
 
 ### Estrutura das Pastas do Projeto
-Aqui assumimos a estrutura das pastas Vertical. Você pode gerar automaricamente com o comando: <br /> `$gradle -q createStrutucreFolders --stacktrace -PtypeStructure='v' -PfeatureName='featureName1'` <br /> que vai gerar uma estrutura conforme figura abaixo:
+Aqui assumimos a estrutura das pastas Vertical. Você pode gerar automaricamente com o comando: <br /> 
+
+```bash
+npm install -g generator-mean-app-crud
+npm install -g yo
+yo mean-app:createApp MyApp --feature-name='MyFeature' --structure-vertical
+```
+NOTA: Mais detalhes em [generator-mean-app-crud](https://github.com/pssilva/generator-mean-app-crud).
+<br /> Com isso irár gerar um projeto com uma estrutura conforme figura abaixo:
 
 <p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/vertical-structure-folder.png"></p>
 
