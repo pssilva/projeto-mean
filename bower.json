@@ -1,6 +1,6 @@
 {
   "name": "projeto-mean",
-  "description": "Projeto conceito para implementar uma aplicação Web usando o Framework MEAN que utiliza as tecnologias: MongoDB, Express, AngularJS e NodeJS.",
+  "description": "Projeto conceito para uma aplicação Web usando Framework MEAN com as tecnologias: MongoDB, Express, AngularJS e NodeJS.",
   "main": "index.js",
   "authors": [
     "Paulo Sérgio da Silva"

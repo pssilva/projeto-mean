@@ -5,9 +5,7 @@ var mainApplicationModule = angular.module(mainApplicationModuleName, [
       'users',
       'articles',
       //#autoIncludeModulo
-
-
-
+      
 	]);
 
 	mainApplicationModule.config([
@@ -21,7 +19,3 @@ var mainApplicationModule = angular.module(mainApplicationModuleName, [
 	angular.element(document).ready(function() {
 		angular.bootstrap(document, [mainApplicationModuleName]);
 	});
-	
-	
-	
-	
