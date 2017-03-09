@@ -51,7 +51,7 @@ npm install -g yo
 yo mean-app:createApp MyApp --feature-name='MyFeature' --structure-vertical
 ```
 NOTA: Mais detalhes em [generator-mean-app-crud](https://github.com/pssilva/generator-mean-app-crud).
-<br /> Com isso irár gerar um projeto com uma estrutura conforme figura abaixo:
+<br /> Com isso irá gerar um projeto com uma estrutura conforme figura abaixo:
 
 <p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/vertical-structure-folder.png"></p>
 
