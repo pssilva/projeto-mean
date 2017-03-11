@@ -24,7 +24,7 @@ Para construir a imagem usei as orientações discutidas em [Oskar Hane: 2015].
 5. Experiência em sistemas de containerização (e.g. [Docker](https://hub.docker.com/r/pss1suporte/paas-docker/));
 	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/docker.png" alt="Experiência em sistemas de containerização Docker" height="50" width="195"></p>
 6. Experiência em sistemas Linux e shell scripting;
-	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/shell-linux.jpeg" alt="Experiência em sistemas Linux e shell scripting" height="50" width="195"></p>
+	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/shell-linux.jpeg" alt="Experiência em sistemas Linux e shell scripting" height="91" width="150"></p>
 7. Experiência em sistemas Amazon Web Services - AWS;
 	<p><img src="https://github.com/pssilva/projeto-mean/blob/master/doc-repo/aws.png" alt="Experiência em sistemas Amazon Web Services - AWS" height="50" width="195"></p>
 8. Experiência em projetos utilizando micro serviços (Microservices) e computação distribuída;
@@ -36,8 +36,15 @@ Considerando que temos uma instância do Amazon Machine Image - AMI iniciada: [a
 - 2. Acessar a pasta: `cd projeto-mean`;
 - 3. Instalar as dependencias: `mpn install`;
 - 4. Instalar as dependencias: `bower install`;
-- 5. Start Server: `node server`;
-- 6. Acessar o sistema: `localhost:3000?name=SeuPrimeiroNome`;
+- 5. Antes de iniciar o servidor você deve definir as seguintes variáveis de ambiente: 
+```bash
+# será usado no sistema: process.env.SESSION_SECRET
+export SESSION_SECRET=?????? 
+# será usado no sistema: process.env.NODE_ENV
+export NODE_ENV=development 
+```
+- 6. Start Server: `grunt`;
+- 7. Acessar o sistema: `localhost:3000 ou localhost:9001`;
 
 NOTA: MEAN CRUD - para criar um CRUD automaticamente use o comando: <br />
 `gradle -q createMeanCRUD -PmodelName=articles -PfeatureName=example`

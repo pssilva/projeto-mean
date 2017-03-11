@@ -22,6 +22,8 @@
     "test",
     "tests"
   ],
+  "appPath": "app/core/client",
+  "moduleName": "projetoMEAN",
   "dependencies": {
 	  "angular": "~1.2",
       "angular-route": "~1.2",
