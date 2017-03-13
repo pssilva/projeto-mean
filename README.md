@@ -64,6 +64,17 @@ NOTA: Mais detalhes em [generator-mean-app-crud](https://github.com/pssilva/gene
 
 Onde entendemos que a pasta feature representa a separação literal das funcionalidades. Exemplo, pretendo organizar authentication e authorization com o [OAuth2.0](https://oauth.net/2/) separadamente como um plugin usando a estrutura da pasta feature. 
 
+### Temas 
+O projeto será adaptado para os seguintes temas (themes):
+
+- 1. [AdminLTE](https://github.com/almasaeed2010/AdminLTE);
+	> Acessar o sistema: `http://localhost:3000/admin-lte.ejs ou http://localhost:9001/admin-lte.ejs`
+	![Gentelella Bootstrap Admin Template](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gentelella-admin-template-preview.jpg "Gentelella Theme Browser Preview")
+
+- 2. [Gentelella Allela](https://github.com/puikinsh/gentelella);
+	> Acessar o sistema: `http://localhost:3000/gentelella.ejs ou http://localhost:9001/gentelella.ejs`
+	!["AdminLTE Presentation"](https://almsaeedstudio.com/AdminLTE2.png "AdminLTE Presentation")
+
 ### Referência
 - Valeri Karpov, Diego Netto: 2015, John Wiley & Sons, Inc., [Professional AngularJS](http://www.allitebooks.com/professional-angularjs/)
 - Amos Q. Haviv: 2014, Packt Publishing, [MEAN Web Development](http://it-ebooks.info/book/4849/): <br />

@@ -11,6 +11,8 @@ exports.render = function(req, res) {
 	
 	res.status(res.statusCode)
 	   .render('index',{
+		   pathTheme: '/gentelella',
+		   //pathTheme: '/AdminLTE',
 		   title: 'Hello World',
 		   //userFullName: req.user ? req.user.fullName : ''
 		   user: JSON.stringify(req.user)

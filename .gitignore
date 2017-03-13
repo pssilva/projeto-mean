@@ -36,9 +36,20 @@ gradlew.bat
 ###############
 node_modules/*
 
-
 ###############
 ## AngularJs ##
 ###############
 app/core/client/lib/*
+
+
+###############
+## TEMPLATES ##
+###############
+app/core/client/themes/AdminLTE/node_modules/*
+app/core/client/themes/AdminLTE/documentation/*
+
+app/core/client/themes/gentelella/node_modules/*
+app/core/client/themes/gentelella/vendors/*
+
+
 

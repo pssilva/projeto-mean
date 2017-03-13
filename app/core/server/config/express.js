@@ -45,6 +45,8 @@ module.exports = function() {
 
 
     app.use('/public',express.static('./app/core/client'));
+    app.use('/AdminLTE',express.static('./app/core/client/themes/AdminLTE'));
+    app.use('/gentelella',express.static('./app/core/client/themes/gentelella'));
     app.use('/lib',express.static('./app/core/client/lib'));
     app.use('/example',express.static('./app/example/client'));
 	/**#autoInsertStaticPath#*/
