@@ -67,13 +67,13 @@ Onde entendemos que a pasta feature representa a separação literal das funcion
 ### Temas 
 O projeto será adaptado para os seguintes temas (themes):
 
-- 1. [AdminLTE](https://github.com/almasaeed2010/AdminLTE);
-	> Acessar o sistema: `http://localhost:3000/admin-lte.ejs ou http://localhost:9001/admin-lte.ejs`
-	![Gentelella Bootstrap Admin Template](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gentelella-admin-template-preview.jpg "Gentelella Theme Browser Preview")
+- 1. [AdminLTE](https://github.com/almasaeed2010/AdminLTE); <br />
+> Acessar o sistema: `http://localhost:3000/admin-lte.ejs ou http://localhost:9001/admin-lte.ejs`
+![Gentelella Bootstrap Admin Template](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gentelella-admin-template-preview.jpg "Gentelella Theme Browser Preview")
 
-- 2. [Gentelella Allela](https://github.com/puikinsh/gentelella);
-	> Acessar o sistema: `http://localhost:3000/gentelella.ejs ou http://localhost:9001/gentelella.ejs`
-	!["AdminLTE Presentation"](https://almsaeedstudio.com/AdminLTE2.png "AdminLTE Presentation")
+- 2. [Gentelella Allela](https://github.com/puikinsh/gentelella); <br />
+> Acessar o sistema: `http://localhost:3000/gentelella.ejs ou http://localhost:9001/gentelella.ejs`
+!["AdminLTE Presentation"](https://almsaeedstudio.com/AdminLTE2.png "AdminLTE Presentation")
 
 ### Referência
 - Valeri Karpov, Diego Netto: 2015, John Wiley & Sons, Inc., [Professional AngularJS](http://www.allitebooks.com/professional-angularjs/)
