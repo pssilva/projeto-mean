@@ -50,7 +50,7 @@ NOTA: MEAN CRUD - para criar um CRUD automaticamente use o comando: <br />
 `gradle -q createMeanCRUD -PmodelName=articles -PfeatureName=example`
 
 ### Estrutura das Pastas do Projeto
-Aqui assumimos a estrutura das pastas Vertical. Você pode gerar automaricamente com o comando: <br /> 
+Aqui assumimos a estrutura de pasta Vertical. Você pode gerar automaricamente com o comando: <br /> 
 
 ```bash
 npm install -g generator-mean-app-crud
